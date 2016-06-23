@@ -1,5 +1,5 @@
 <?php
-use Orpheus\Config\YAML;
+namespace Orpheus\Config\YAML;
 
 /**
  * The yaml class
