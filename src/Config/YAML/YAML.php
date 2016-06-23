@@ -1,6 +1,8 @@
 <?php
 namespace Orpheus\Config\YAML;
 
+use Orpheus\Config\Config;
+
 /**
  * The yaml class
  * 
