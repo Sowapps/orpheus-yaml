@@ -4,7 +4,7 @@ namespace Orpheus\Config\YAML;
 use Orpheus\Config\Config;
 
 /**
- * The yaml class
+ * The YAML configuration class
  * 
  * This class is made to get YAML configuration.
  */
@@ -12,7 +12,9 @@ class YAML extends Config {
 
 	protected static $extension = 'yaml';
 
-	/**	Parse configuration from given source.
+	/**
+	 * Parse configuration from given source.
+	 * 
 	 * @param $source An identifier or a path to get the source.
 	 * @return The loaded configuration array.
 	 *
