@@ -9,7 +9,12 @@ use Orpheus\Config\Config;
  * This class is made to get YAML configuration.
  */
 class YAML extends Config {
-
+	
+	/**
+	 * Extension for this config files
+	 *
+	 * @var string
+	 */
 	protected static $extension = 'yaml';
 
 	/**
