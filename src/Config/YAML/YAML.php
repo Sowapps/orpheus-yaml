@@ -1,4 +1,8 @@
 <?php
+/**
+ * YAML
+ */
+
 namespace Orpheus\Config\YAML;
 
 use Orpheus\Config\Config;
