@@ -1,7 +1,7 @@
 <?php
 /**
  * YAML
- */
+*/
 
 namespace Orpheus\Config\YAML;
 
@@ -9,11 +9,11 @@ use Orpheus\Config\Config;
 
 /**
  * The YAML configuration class
- * 
+ *
  * This class is made to get YAML configuration.
  */
 class YAML extends Config {
-	
+
 	/**
 	 * Extension for this config files
 	 *
@@ -23,16 +23,15 @@ class YAML extends Config {
 
 	/**
 	 * Parse configuration from given source.
-	 * 
-	 * @param $source An identifier or a path to get the source.
-	 * @return The loaded configuration array.
+	 *
+	 * @param string $path The path to the config file
+	 * @return mixed The loaded configuration array
 	 *
 	 * If an identifier, load a configuration from a .yaml file in CONFDIR.
 	 * Else $source is a full path to the YAML configuration file.
 	 */
-	public static function parse($source) {
-		$path	= static::getFilePath($source);
-		return $path ? yaml_parse_file(static::getFilePath($source)) : array();
+	public static function parse($path) {
+		return yaml_parse_file($path);
 	}
-	
+
 }
