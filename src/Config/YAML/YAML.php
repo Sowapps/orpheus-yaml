@@ -27,7 +27,7 @@ class YAML extends Config {
 	 * @param string $path The path to the config file
 	 * @return mixed The loaded configuration array
 	 *
-	 * If an identifier, load a configuration from a .yaml file in CONFDIR.
+	 * If an identifier, load a configuration from a .yaml file in CONFIG_FOLDER.
 	 * Else $source is a full path to the YAML configuration file.
 	 */
 	public static function parse($path) {
