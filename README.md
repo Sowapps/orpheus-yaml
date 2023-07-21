@@ -1,2 +1,2 @@
 # orpheus-yaml
-YAML Library for Orpheus, YAML supports coming now !
+Yaml Library for Orpheus, Yaml supports coming now !
